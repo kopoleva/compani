@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FlightPool</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media/jquery.bxslider.css">
+</head>
+<body>
+<header>
+    <div class="container">
+      <div>
+        <img class="test-0-logo" src="media/logo.png">
+      </div>
+      <div class="menu">
+        <a href="#about"><button class="button test-0-nav-1">О нас</button></a>
+        <a href="#search"><button class="button test-0-nav-2">Поиск</button></a>
+        <a href="#promotions"><button class="button test-0-nav-3">Акции</button></a>
+        <a href="login.html"><button class="button test-0-nav-4">Личный кабинет</button></a>
+      </div>
+      <div class="compani"> Авиакомпания FlightPool</div>
+    </div>
+  </header>
+  	<div class="cnocka">
+  		<h1>«Мы сближаем города, вы – живете там, где хотите»</h1>
+  </div>
+		<div class="main-container">
+		<div class="zind">
+  	<section class="form-search" id="search">
+		<h2>Поиск билетов</h2>
+		<form action="search.html" class="main-search">
+			<div class="test-0-fd">
+				<p class="search-text">Город вылета</p>
+				<select id="selectItem" class="city-button">
+					<option id="moscow">Москва</option>
+					<option id="piter">Санкт-Петербург</option>
+					<option id="sochi">Сочи</option>
+					<option id="yalta">Ялта</option>
+				</select>
+			</div>
+			<div class="test-0-fa">
+				<p class="search-text">Город прилета</p>
+				<select id="selectItem" class="city-button">
+					<option id="piter">Санкт-Петербург</option>
+					<option id="moscow">Москва</option>
+					
+					<option id="sochi">Сочи</option>
+					<option id="yalta">Ялта</option>
+				</select>
+			</div>
+			<div class="test-0-fdt">
+				<p class="search-text">Туда</p>
+				<input type="date" class="search-button" name="name" required>
+			</div>
+			<div class="test-0-fat">
+				<p class="search-text">Обратно</p>
+				<input type="date" class="search-button" name="name" required>
+			</div>
+			<div class="test-0-fnp">
+					<p class="search-text">Кол-во пассажиров</p>
+					<select type="number" class="passengers-button">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+					</select>
+				</div>
+				<div class="test-0-fbs">
+					<button type="submit" class="open-modal">Результат</button>
+				</div>
+		</form>
+	</section>
+</div>
+</div>
+<div class="slider">
+  <div class="slide"></div>
+  <div class="slide"></div>
+  <div class="slide"></div>
+  <div class="slide"></div>
+  <div class="slide"></div>
+</div>
+
+<div class="main-container">
+		<hr class="separate">
+	<div class="promotions" id="about">
+		<div style="width: 100%">
+			<h1>О нас</h1>
+		</div>
+		<div class="airdesc">
+			<img src="media/images/aircrafts/960.jpg" class="test-0-ai">
+			<h3 class="test-0-an">Наши самолеты</h3>
+			<div class="test-0-ad">Самолет — воздушное судно, предназначенное для полетов в атмосфере с помощью силовой установки, создающей тягу, и неподвижного относительно других частей аппарата крыла, создающего подъемную силу. Ваши мысли должны лететь, чтобы дать вам подняться.</div>
+		</div>
+		<div class="airdesc">
+			<img src="media/images/1-2.jpg" class="test-0-ai">
+			<h3 class="test-0-an">Наш экипаж</h3>
+			<div class="test-0-ad">
+				<p>Экипаж – коллектив боевой, – в нём не каждый становится свой.</p>
+				<p>Коль стремился сюда и попал, обживай нелюдимый металл.</p>
+				<p>Прочный корпус – на верность присяге – испытает тебя в передряге.</p>
+			</div>
+		</div>
+		<form class="premium">
+			<h2>Подписка на акции</h2>
+			<div class="prem-text">
+				Скидки на авиабилеты и предложения придут на вашу почту
+			</div>
+			<div class="prem-bottom">
+				<div class="mail-field">
+					<input type="email" required placeholder="Email*" class="test-0-sie">
+				</div>
+				<input class="test-0-sbs" type="submit" value="Оформить"></input>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="main-container">
+		<hr class="separate">
+	<h2 style="margin-top: 20px; font-size: 40px;">Принципы накопления бронирований</h2>
+	<h3 style="color: gray; font-size: 25px ; margin-bottom: 60px;"><i>Для осуществления перелета с целью снижения его стоимости</i></h3>
+	<div class="info">
+		<div class="section">
+			<b>Выбрать удобную дату перелета</b>
+		</div>
+		<div class="section">
+			<b>Накопить больше 50% бронирований на рейс</b>
+		</div>
+		<div class="section">
+			<b>Получить снижение стоимости</b>
+		</div>
+	</div>
+	<hr class="separate">
+	<div class="promotions" id="promotions">
+		<div style="width: 100%">
+			<h1>Акции</h1>
+		</div>
+		<div class="promotion">
+			<img src="media/images/promotions/promotion1.jpg" class="test-0-ai">
+			<h3 class="test-0-an">Возврат и изменение ваших билетов</h3>
+			<div class="test-0-ad" style="margin-bottom: 20px;">Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно. Как только все это закончится, мы продолжим исследовать этот мир так, как раньше. Специальные правила, разработанные для этой непростой ситуации, помогут вам отменить поездку или отложить ее на потом.</div>
+		</div>
+		<div class="promotion">
+			<img src="media/images/promotions/promotion2.jpg" class="test-0-ai">
+			<h3 class="test-0-an">Лучшие предложения</h3>
+			<div class="test-0-ad" style="margin-bottom: 20px;">Чтобы снова увидеть улицы, которые были свидетелями так много. Обнять своих любимых и оглянуться назад, чтобы увидеть, через что вы прошли. И думать о новых мечтах, которые будут такими особенными!</div>
+		</div>
+		<div class="promotion">
+			<img src="media/images/promotions/promotion3.jpg" class="test-0-ai">
+			<h3 class="test-0-an">Увидимся чаще</h3>
+			<div class="test-0-ad" style="margin-bottom: 20px;">С начала января мы расширяем географию полетов по России, чтобы вы могли чаще видеть своих близких. Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.</div>
+		</div>
+		<div class="promotion">
+			<img src="media/images/promotions/promotion4.jpg" class="test-0-ai">
+			<h3 class="test-0-an">Все снова включено</h3>
+			<div class="test-0-ad" style="margin-bottom: 20px;">С 10 августа мы возобновим полеты в Турцию. Рейсы из Москвы в Анталию будут выполняться два раза в день ежедневно, а рейсы по маршруту Москва-Даламан будут выполняться от трех до семи раз в неделю.</div>
+		</div>
+	</div>
+	<br>
+	<hr class="separate">
+	<div class="reviews">
+		<div style="width: 100%">
+			<h1>Что думают наши пассажиры</h1>
+		</div>
+		<div style="background-color: whitesmoke; border-radius: 10px; margin: 20px; width: 360px;">
+			<div>
+				<div style="display: inline-block;">
+					<img src="media/images/user.png" class="user-image">
+				</div>
+				<div style="display: inline-block;">
+					<div style="margin-bottom: 10px">
+						Марина Киселева
+					</div>
+					<div style="vertical-align: middle; font-size: 23px;">
+						<img src="media/images/star.png" style="width: 35px;">
+						5	
+					</div>
+				</div>
+			</div>
+			<hr class="separate">
+			<div style="margin: 10px;">
+				Спасибо авиакомпонии FlightPool за полет. Доброжелательный экипаж и комфортные самолеты.
+			</div>
+		</div>
+
+		<div style="background-color: whitesmoke; border-radius: 10px; margin: 20px; width: 360px;">
+			<div>
+				<div style="display: inline-block;">
+					<img src="media/images/user.png" class="user-image">
+				</div>
+				<div style="display: inline-block;">
+					<div style="margin-bottom: 10px">
+						Александр Мальцев
+					</div>
+					<div style="vertical-align: middle; font-size: 23px;">
+						<img src="media/images/star.png" style="width: 35px;">
+						5	
+					</div>
+				</div>
+			</div>
+			<hr class="separate">
+			<div style="margin: 10px;">
+				Полет прошел хорошо, но вылет немного задержали.
+			</div>
+		</div>
+
+		<div style="background-color: whitesmoke; border-radius: 10px; margin: 20px; width: 360px;">
+			<div>
+				<div style="display: inline-block;">
+					<img src="media/images/user.png" class="user-image">
+				</div>
+				<div style="display: inline-block;">
+					<div style="margin-bottom: 10px">
+						Мария Нижутина
+					</div>
+					<div style="vertical-align: middle; font-size: 23px;">
+						<img src="media/images/star.png" style="width: 35px;">
+						5
+					</div>
+				</div>
+			</div>
+			<hr class="separate">
+			<div style="margin: 10px;">
+				Удобный и понятый сайт, легко забронировать билеты, все под рукой, разрабу респект и 2к!!!
+			</div>
+		</div>
+
+		<div style="background-color: whitesmoke; border-radius: 10px; margin: 20px; width: 360px;">
+			<div>
+				<div style="display: inline-block;">
+					<img src="media/images/user.png" class="user-image">
+				</div>
+				<div style="display: inline-block;">
+					<div style="margin-bottom: 10px">
+						Альбина Артомонова
+					</div>
+					<div style="vertical-align: middle; font-size: 23px;">
+						<img src="media/images/star.png" style="width: 35px;">
+						4	
+					</div>
+				</div>
+			</div>
+			<hr class="separate">
+			<div style="margin: 10px;">
+				Все отлично, но хотелось бы посетить другие города перелетом ващей Авиакомпанией.
+			</div>
+		</div>
+
+		<div style="background-color: whitesmoke; border-radius: 10px; margin: 20px; width: 360px;">
+			<div>
+				<div style="display: inline-block;">
+					<img src="media/images/user.png" class="user-image">
+				</div>
+				<div style="display: inline-block;">
+					<div style="margin-bottom: 10px">
+						Дмитрий Андреев
+					</div>
+					<div style="vertical-align: middle; font-size: 23px;">
+						<img src="media/images/star.png" style="width: 35px;">
+						4	
+					</div>
+				</div>
+			</div>
+			<hr class="separate">
+			<div style="margin: 10px;">
+				Летел из Москвы в Сочи, быстро зарегистрировались онлайн, оставалось сдать багаж но была большая очерядь на стойку.
+			</div>
+		</div>
+
+		<div style="background-color: whitesmoke; border-radius: 10px; margin: 20px; width: 360px;">
+			<div>
+				<div style="display: inline-block;">
+					<img src="media/images/user.png" class="user-image">
+				</div>
+				<div style="display: inline-block;">
+					<div style="margin-bottom: 10px">
+						Алексей Щебаков
+					</div>
+					<div style="vertical-align: middle; font-size: 23px;">
+						<img src="media/images/star.png" style="width: 35px;">
+						5
+					</div>
+				</div>
+			</div>
+			<hr class="separate">
+			<div style="margin: 10px;">
+				Отзывчивая команда, вкусно покормили. Летели весй семьей, без проблем посадили всех вместе, летели без зпдержек и переносов, удобно и комфртно.
+			</div>
+		</div>
+
+	</div>
+</div>
+<footer class="footer">
+	<div class="footer-container">
+		<div class="footer-block">
+			<div><h2 style="color: dimgray;grey;">Связь с нами</h2></div>
+			<div><h2 style="color: dimgray;">8 (800) 100-10-10</h2></div>
+			<div><h2 style="color: dimgray;">Нижутина М.А.</h2></div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
